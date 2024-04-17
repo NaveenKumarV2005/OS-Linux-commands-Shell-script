@@ -43,22 +43,27 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
+<img width="186" alt="os 1" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/cabbbbf8-edbc-423f-b2fd-9b554ebcb6fb">
 
 
 cat < file2
 ## OUTPUT
+<img width="158" alt="os 2" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/ddfac777-1c3b-4f3d-a7a7-d340013f7bfc">
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+
+
 comm file1 file2
  ## OUTPUT
+<img width="114" alt="os 3" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/8e2fb210-00d5-4cfa-a247-3daf4d43e665">
 
  
 diff file1 file2
 ## OUTPUT
+<img width="356" alt="os4" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/bc967684-feda-415f-acc9-63475c7ada5b">
 
 
 #Filters
@@ -83,17 +88,20 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
+<img width="113" alt="os 5" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/05a637c2-3fa5-4e99-8c2b-0754383606d9">
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
+<img width="155" alt="os 6,7,8" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/99c14dd1-d293-48d4-88d5-5f58a0dfecdc">
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
 
+<img width="155" alt="os 6,7,8" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/58574bf5-65cc-4c1b-b0ae-b5bd2f50c2f3">
 
 cat < newfile 
 ```
@@ -108,18 +116,18 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
+<img width="140" alt="os 9" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/b65f5c56-9fad-4ac3-973d-e5dae9290ee4">
 
 
 grep hello newfile 
 ## OUTPUT
 
-
-
+<img width="616" alt="os 10,11,12,13,14" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/988232cc-e5f7-446e-8435-4fe40ce64cba">
 
 grep -v hello newfile 
 ## OUTPUT
 
-
+<img width="616" alt="os 10,11,12,13,14" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/988232cc-e5f7-446e-8435-4fe40ce64cba">
 
 cat newfile | grep -i "hello"
 ## OUTPUT
