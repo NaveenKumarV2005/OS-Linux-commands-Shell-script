@@ -176,54 +176,65 @@ egrep -w 'Hello|hello' newfile
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+<img width="187" alt="17" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/bbe880e2-1417-4b4d-90c6-8e1a3ec93ff3">
 
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
+<img width="184" alt="18" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/05883e8f-e378-4113-afb4-f417046ec28e">
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
 
+<img width="143" alt="19" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/45fdeb70-c1ad-4c81-921f-2f9a565d2f7d">
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
 
+<img width="140" alt="20" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/d38f1eed-72c1-4b2d-89be-a60982cd4297">
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
+<img width="140" alt="21" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/cbd6a237-2899-4c0a-be69-207b33a320b7">
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+<img width="173" alt="22" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/b9efc4c6-a492-4117-8444-9cbe0ee9a7d3">
 
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
 
+<img width="131" alt="23" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/0e282f25-ab75-49dd-98ee-0a567a592385">
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+<img width="134" alt="24" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/a606278c-2758-4bfa-90d0-2ef403b1b78f">
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
 
+<img width="144" alt="25" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/a51f6e88-5fff-49cb-b7ca-175e33eb3857">
 
 egrep l{2} newfile
 ## OUTPUT
 
+<img width="109" alt="26" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/30aa7a3d-ac7c-45ae-9c87-00a5c4b2402e">
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+<img width="133" alt="27" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/f6866b3e-ba6e-44cd-a39b-ecd51f0b6946">
 
 
 cat > file23
@@ -253,26 +264,31 @@ sed -n -e '$p' file23
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
 
+<img width="185" alt="29" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/37bfe2d1-d9dd-4ebc-bdf2-b81f539e3029">
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
+<img width="217" alt="30" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/1832cf84-5ecd-41dd-ad45-9c3ea0ff843d">
 
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
 
+<img width="178" alt="31" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/de3bc4a3-de17-4c35-b82d-17cd7da8836e">
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
 
+<img width="158" alt="32" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/0eb0aba7-4fba-4f76-906a-f91e67d47656">
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
 
+<img width="149" alt="33" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/0e5b828b-2170-4a07-89f2-203d0f667a42">
 
 
 
@@ -280,38 +296,46 @@ sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 
 
+<img width="152" alt="34" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/47fa830f-601c-4557-98dd-a52c23a1b14e">
 
 seq 10 
 ## OUTPUT
 
+<img width="117" alt="35" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/46e4c01d-8936-487e-bc80-e06cd97e6b52">
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
 
+<img width="115" alt="36" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/d361f670-4ff3-472b-aeb6-f2cb591c0a01">
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
+<img width="133" alt="37" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/4ce1fb02-75b2-43b0-aca2-4de7e4c000ad">
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
 
+<img width="125" alt="38" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/d989ba89-8a57-4582-916a-1024cc840fea">
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+<img width="130" alt="39" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/709ba924-945c-4d01-b334-102079425b13">
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+<img width="155" alt="40" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/6ec608b6-ea07-4ac2-9bfd-bbdd47d9c9a8">
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
+<img width="179" alt="41" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/c6db5c63-3df1-495c-93e0-3e3fc1aea7bc">
 
 
 sed -n '2,4{s/$/*/;p}' file23
@@ -342,12 +366,14 @@ cat > file22
 uniq file22
 ## OUTPUT
 
+<img width="150" alt="42" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/a16d83f9-782e-4369-a337-99028f610eec">
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+<img width="170" alt="43" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/bc56461f-9ef1-4505-a8ef-3ab45d748607">
 
 cat < urllist.txt
 ```
@@ -365,11 +391,13 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
+<img width="153" alt="44" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/ad598f93-72b5-4937-a876-7277c7a6df80">
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
+<img width="227" alt="45" src="https://github.com/NaveenKumarV2005/OS-Linux-commands-Shell-script/assets/151476286/71ad6809-a838-4034-8ec0-59a837150757">
 
 
 #Backup commands
